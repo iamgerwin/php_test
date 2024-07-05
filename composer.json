@@ -1,0 +1,26 @@
+{
+    "name": "iamgerwin/php_test",
+    "description": "sample php test",
+    "type": "project",
+    "require": {
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iamgerwin\\PhpTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iamgerwin",
+            "email": "iamgerwin@live.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
